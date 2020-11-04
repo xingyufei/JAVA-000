@@ -3,7 +3,6 @@ package io.github.kimmking.gateway.inbound;
 import io.github.kimmking.gateway.filter.HttpRequestFilter;
 import io.github.kimmking.gateway.filter.impl.HttpRequestFilterImpl;
 import io.github.kimmking.gateway.outbound.OutboundHandler;
-import io.github.kimmking.gateway.outbound.httpclient1.HttpOutboundHandler;
 import io.github.kimmking.gateway.outbound.netty4.NettyHttpClientOutboundHandler;
 import io.github.kimmking.gateway.router.HttpEndPointRouterFactory;
 import io.github.kimmking.gateway.router.HttpEndpointRouter;
